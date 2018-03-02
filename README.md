@@ -2,7 +2,7 @@
 ### This solution is a part of tutorial [Multithreading In C#](https://kudchikarsk.github.io/multithreading-in-c-sharp/)
 
 
-Solution contains various Windows Forms App projects for different multithreading concepts in C#
+Solution contains various Windows Forms App projects for different multithreading concepts in C#.
 
 
 #### To run a particular project
