@@ -8,7 +8,11 @@ Solution contains various Windows Forms App projects for different multithreadin
 To run a particular project 
 
 
-  1. right-click on project name in solution 
-  2. click on Set as startup project
-  3. run the project
+  
+
+    1. In Solution Explorer, select the desired startup project within your solution.
+
+    2. On the Project menu, choose Set as StartUp Project.
+
+
 
