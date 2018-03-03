@@ -3,7 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonReponsiveAppDemo", "NonResponsiveAppDemo\NonResponsiveAppDemo.csproj", "{798BFCA0-A17E-41E6-9EBB-A4F2466E2BC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonResponsiveAppDemo", "NonResponsiveAppDemo\NonResponsiveAppDemo.csproj", "{798BFCA0-A17E-41E6-9EBB-A4F2466E2BC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveAppDemo", "ResponsiveAppDemo\ResponsiveAppDemo.csproj", "{93F3F35F-DF84-4959-828C-C0012C0DFE8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 StartingThreads", "1 StartingThreads\1 StartingThreads.csproj", "{4E946F95-F9C8-4E14-9899-DE0916427F35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 SettingThreadProperties", "2 SettingThreadProperties\2 SettingThreadProperties.csproj", "{6CC0402D-52D2-4485-9258-0F17227877B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 BackgroundThread", "3 BackgroundThread\3 BackgroundThread.csproj", "{460EC157-5549-4FEF-A3A2-BA71F7E1833A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 ParameterizedThread", "4 ParameterizedThread\4 ParameterizedThread.csproj", "{D765448D-E557-45A7-B566-43F6C92A7F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 ParameterizedThreadInstanceMethod", "5 ParameterizedThreadInstanceMethod\5 ParameterizedThreadInstanceMethod.csproj", "{93F3B760-02BE-4F1D-921F-581A00A2860B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 ThreadLifeTime", "6 ThreadLifeTime\6 ThreadLifeTime.csproj", "{78098ACC-7F24-47D8-931C-B586A116F4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 ThreadShutdown", "7 ThreadShutdown\7 ThreadShutdown.csproj", "{3657695A-3040-47E1-B5B0-BC42755CB410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 ThreadPoolQueueUserWorkItem", "8 ThreadPoolQueueUserWorkItem\8 ThreadPoolQueueUserWorkItem.csproj", "{845BD0B7-9108-41C6-966B-AA143114B55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 QueueUserWorkItemWithParameter", "9 QueueUserWorkItemWithParameter\9 QueueUserWorkItemWithParameter.csproj", "{1E357474-0650-44F4-AB33-1DB1043C6981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +35,46 @@ Global
 		{798BFCA0-A17E-41E6-9EBB-A4F2466E2BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{798BFCA0-A17E-41E6-9EBB-A4F2466E2BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{798BFCA0-A17E-41E6-9EBB-A4F2466E2BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F3F35F-DF84-4959-828C-C0012C0DFE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F3F35F-DF84-4959-828C-C0012C0DFE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F3F35F-DF84-4959-828C-C0012C0DFE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F3F35F-DF84-4959-828C-C0012C0DFE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E946F95-F9C8-4E14-9899-DE0916427F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E946F95-F9C8-4E14-9899-DE0916427F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E946F95-F9C8-4E14-9899-DE0916427F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E946F95-F9C8-4E14-9899-DE0916427F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC0402D-52D2-4485-9258-0F17227877B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC0402D-52D2-4485-9258-0F17227877B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC0402D-52D2-4485-9258-0F17227877B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC0402D-52D2-4485-9258-0F17227877B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460EC157-5549-4FEF-A3A2-BA71F7E1833A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460EC157-5549-4FEF-A3A2-BA71F7E1833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460EC157-5549-4FEF-A3A2-BA71F7E1833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460EC157-5549-4FEF-A3A2-BA71F7E1833A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D765448D-E557-45A7-B566-43F6C92A7F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D765448D-E557-45A7-B566-43F6C92A7F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D765448D-E557-45A7-B566-43F6C92A7F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D765448D-E557-45A7-B566-43F6C92A7F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F3B760-02BE-4F1D-921F-581A00A2860B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F3B760-02BE-4F1D-921F-581A00A2860B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F3B760-02BE-4F1D-921F-581A00A2860B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F3B760-02BE-4F1D-921F-581A00A2860B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78098ACC-7F24-47D8-931C-B586A116F4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78098ACC-7F24-47D8-931C-B586A116F4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78098ACC-7F24-47D8-931C-B586A116F4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78098ACC-7F24-47D8-931C-B586A116F4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3657695A-3040-47E1-B5B0-BC42755CB410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3657695A-3040-47E1-B5B0-BC42755CB410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3657695A-3040-47E1-B5B0-BC42755CB410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3657695A-3040-47E1-B5B0-BC42755CB410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845BD0B7-9108-41C6-966B-AA143114B55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845BD0B7-9108-41C6-966B-AA143114B55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845BD0B7-9108-41C6-966B-AA143114B55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845BD0B7-9108-41C6-966B-AA143114B55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E357474-0650-44F4-AB33-1DB1043C6981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E357474-0650-44F4-AB33-1DB1043C6981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E357474-0650-44F4-AB33-1DB1043C6981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E357474-0650-44F4-AB33-1DB1043C6981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

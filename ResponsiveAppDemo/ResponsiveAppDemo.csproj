@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{798BFCA0-A17E-41E6-9EBB-A4F2466E2BC2}</ProjectGuid>
+    <ProjectGuid>{93F3F35F-DF84-4959-828C-C0012C0DFE8E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NonReponsiveAppDemo</RootNamespace>
-    <AssemblyName>NonReponsiveAppDemo</AssemblyName>
+    <RootNamespace>ResponsiveAppDemo</RootNamespace>
+    <AssemblyName>ResponsiveAppDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -64,7 +64,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

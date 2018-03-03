@@ -21,9 +21,15 @@ namespace NonResponsiveAppDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
+            var thread = new Thread(SomeLongRunningOperaton);
+            thread.Start();
+        }
+
+        private static void SomeLongRunningOperaton()
+        {
             Thread.Sleep(5000);
         }
-        
+
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Text += "You Clicked Me!\n";
