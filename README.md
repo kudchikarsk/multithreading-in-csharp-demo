@@ -1,5 +1,7 @@
 # Multithreading In C# Demo
-### This solution is a part of tutorial [Multithreading In C#](https://kudchikarsk.github.io/multithreading-in-c-sharp/)
+
+
+This solution is a part of tutorial [Multithreading In C#](https://kudchikarsk.github.io/multithreading-in-c-sharp/)
 
 
 Solution contains various Windows Forms App / Console App Project for different multithreading concepts in C#.
