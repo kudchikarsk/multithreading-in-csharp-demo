@@ -9,15 +9,17 @@ public class Example
         //initialize a thread class object 
         //And pass your custom method name to the constructor parameter
 
-        Thread thread = new Thread(SomeMethod);
+        Thread t = new Thread(SomeMethod);
 
-        thread.Name = "My Parallel Thread";
+        t.Name = "My Parallel Thread";
 
-        thread.Priority = ThreadPriority.BelowNormal;
+        t.Priority = ThreadPriority.BelowNormal;
 
         //start running your thread
+        t.Start();
 
-        thread.Start();
+        //wait until Thread "t" is done with its execution.
+        t.Join();
 
         Console.WriteLine("Press Enter to terminate!");
         Console.ReadLine();
@@ -26,7 +28,7 @@ public class Example
     private static void SomeMethod()
     {
         //your code here that you want to run parallel
-        //most of the cases it will be a CPU bound operation
+        //most of the time it will be a CPU bound operation
 
         Console.WriteLine("Hello World!");
     }

@@ -12,11 +12,11 @@ public class Example
         //initialize a thread class object 
         //And pass your custom method name to the constructor parameter
 
-        Thread thread = new Thread(Speak);
+        Thread t = new Thread(Speak);
 
         //start running your thread
         //dont forget to pass your parameter for the Speak method (ParameterizedThreadStart delegate) in start method
-        thread.Start("Hello World!");
+        t.Start("Hello World!");
 
         //wait for 5 secs while Speak method print Hello World! for multiple times
         Thread.Sleep(5000);
@@ -26,7 +26,7 @@ public class Example
 
 
         //wait until CLR confirms that thread is shutdown
-        thread.Join();
+        t.Join();
     }
 
     private static void Speak(object s)
